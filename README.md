@@ -15,7 +15,7 @@ https://git.bootcampcontent.com/University-of-Central-Florida/UCF-VIRT-FSF-PT-02
 ### I added the logic for three functions:
 
 ### collectEmployees:
-* In this function i just had to add le logic to collect the name, lastname and the salary of the employees usign a while loop, window.promt and window.confirm
+* In this function i just had to add le logic to collect the name, lastname and the salary of employees usign a while loop, window.promt and window.confirm
 
 
 ### displayAverageSalary:
@@ -23,7 +23,7 @@ https://git.bootcampcontent.com/University-of-Central-Florida/UCF-VIRT-FSF-PT-02
 
 
 ### getRandomEmployee:
-*  In this function i just add the logic to pick a random index from the emplyees array
+*  In this function i just had to add the logic to pick a random index from the employees array and log the employee at that index to the console
 
 <br>
 
