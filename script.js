@@ -1,16 +1,16 @@
 // Get a reference to the #add-employees-btn element
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
-const data = [ ]
+const data = []
 
 // Collect employee data
 const collectEmployees = function () {
     // TODO: Get user input to create and return an array of employee objects
-    const step = ['firstName', 'lastName', 'salary', 'Do you want add another employee','exit']
+    const step = ['firstName', 'lastName', 'salary', 'Do you want add another employee']
     let obj = {}
     let i = -1;
 
-    while (step[i] !== 'exit') {
+    while (i < 4) {
         i++
         if(step[i] !== step[3]){
             const input = window.prompt(`Enter ${step[i]}`)
@@ -22,7 +22,6 @@ const collectEmployees = function () {
             }
             
             obj[step[i]] = input
-            console.log( obj )
 
         } else {
             data.push(obj)
@@ -34,7 +33,6 @@ const collectEmployees = function () {
             }
         }
     }
-    console.log('data', data)
     return data 
 }
 
