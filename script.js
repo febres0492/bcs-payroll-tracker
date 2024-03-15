@@ -1,33 +1,7 @@
 // Get a reference to the #add-employees-btn element
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
-const data = [
-    {
-        'firstName':'carlos',
-        'lastName':'febres',
-        'salary': 65432
-    },
-    {
-        'firstName':'carlos',
-        'lastName':'febres',
-        'salary': 65432
-    },
-    {
-        'firstName':'carlos',
-        'lastName':'febres',
-        'salary': 65432
-    },
-    {
-        'firstName':'carlos',
-        'lastName':'febres',
-        'salary': 65432
-    },
-    {
-        'firstName':'carlos',
-        'lastName':'febres',
-        'salary': 65432
-    },
-]
+const data = [ ]
 
 // Collect employee data
 const collectEmployees = function () {
